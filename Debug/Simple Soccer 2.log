@@ -1,0 +1,50 @@
+﻿Build started 01/10/2014 18:48:06.
+     1>Project "C:\Users\Michael Nares\Desktop\Simple Soccer source\Simple Soccer 2.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Debug\Simple Soccer 2.unsuccessfulbuild".
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt "..\AI source\VS2010\Buckland_Chapter4-SimpleSoccer\FieldPlayer.cpp" "..\AI source\VS2010\Buckland_Chapter4-SimpleSoccer\FieldPlayerStates.cpp" "..\AI source\VS2010\Buckland_Chapter4-SimpleSoccer\Goal.cpp" "..\AI source\VS2010\Buckland_Chapter4-SimpleSoccer\Goalkeeper.cpp" "..\AI source\VS2010\Buckland_Chapter4-SimpleSoccer\GoalKeeperStates.cpp" "..\AI source\VS2010\Buckland_Chapter4-SimpleSoccer\main.cpp" "..\AI source\VS2010\Buckland_Chapter4-SimpleSoccer\ParamLoader.cpp" "..\AI source\VS2010\Buckland_Chapter4-SimpleSoccer\PlayerBase.cpp" "..\AI source\VS2010\Buckland_Chapter4-SimpleSoccer\SoccerBall.cpp" "..\AI source\VS2010\Buckland_Chapter4-SimpleSoccer\SoccerMessages.cpp" "..\AI source\VS2010\Buckland_Chapter4-SimpleSoccer\SoccerPitch.cpp" "..\AI source\VS2010\Buckland_Chapter4-SimpleSoccer\SoccerTeam.cpp" "..\AI source\VS2010\Buckland_Chapter4-SimpleSoccer\SteeringBehaviors.cpp" "..\AI source\VS2010\Buckland_Chapter4-SimpleSoccer\SupportSpotCalculator.cpp" "..\AI source\VS2010\Buckland_Chapter4-SimpleSoccer\TeamStates.cpp" 2D\Vector2d.cpp Debug\DebugConsole.cpp Game\BaseGameEntity.cpp Game\EntityManager.cpp Messaging\MessageDispatcher.cpp
+         MessageDispatcher.cpp
+     1>c:\users\michael nares\desktop\simple soccer source\messaging\MessageDispatcher.h(18): fatal error C1083: Cannot open include file: 'Messaging/Telegram.h': No such file or directory
+         EntityManager.cpp
+     1>c:\users\michael nares\desktop\simple soccer source\game\BaseGameEntity.h(17): fatal error C1083: Cannot open include file: 'Vector2D.h': No such file or directory
+         BaseGameEntity.cpp
+     1>c:\users\michael nares\desktop\simple soccer source\game\BaseGameEntity.h(17): fatal error C1083: Cannot open include file: 'Vector2D.h': No such file or directory
+         DebugConsole.cpp
+     1>Debug\DebugConsole.cpp(1): fatal error C1083: Cannot open include file: 'Debug/DebugConsole.h': No such file or directory
+         Vector2d.cpp
+     1>c:\users\michael nares\desktop\simple soccer source\2d\Vector2D.h(16): fatal error C1083: Cannot open include file: 'misc/utils.h': No such file or directory
+         TeamStates.cpp
+     1>c:\users\michael nares\desktop\ai source\vs2010\buckland_chapter4-simplesoccer\TeamStates.h(14): fatal error C1083: Cannot open include file: 'FSM/State.h': No such file or directory
+         SupportSpotCalculator.cpp
+     1>c:\users\michael nares\desktop\ai source\vs2010\buckland_chapter4-simplesoccer\SupportSpotCalculator.h(17): fatal error C1083: Cannot open include file: 'Game/Region.h': No such file or directory
+         SteeringBehaviors.cpp
+     1>c:\users\michael nares\desktop\ai source\vs2010\buckland_chapter4-simplesoccer\SteeringBehaviors.h(18): fatal error C1083: Cannot open include file: '2D/Vector2D.h': No such file or directory
+         SoccerTeam.cpp
+     1>c:\users\michael nares\desktop\ai source\vs2010\buckland_chapter4-simplesoccer\SoccerTeam.h(20): fatal error C1083: Cannot open include file: 'Game/Region.h': No such file or directory
+         SoccerPitch.cpp
+     1>c:\users\michael nares\desktop\ai source\vs2010\buckland_chapter4-simplesoccer\SoccerPitch.h(20): fatal error C1083: Cannot open include file: '2D/Wall2D.h': No such file or directory
+         SoccerMessages.cpp
+         SoccerBall.cpp
+     1>c:\users\michael nares\desktop\ai source\vs2010\buckland_chapter4-simplesoccer\SoccerBall.h(17): fatal error C1083: Cannot open include file: 'Game/MovingEntity.h': No such file or directory
+         PlayerBase.cpp
+     1>c:\users\michael nares\desktop\ai source\vs2010\buckland_chapter4-simplesoccer\PlayerBase.h(20): fatal error C1083: Cannot open include file: 'misc/autolist.h': No such file or directory
+         ParamLoader.cpp
+     1>c:\users\michael nares\desktop\ai source\vs2010\buckland_chapter4-simplesoccer\ParamLoader.h(20): fatal error C1083: Cannot open include file: 'misc/iniFileLoaderBase.h': No such file or directory
+         main.cpp
+     1>..\AI source\VS2010\Buckland_Chapter4-SimpleSoccer\main.cpp(6): fatal error C1083: Cannot open include file: 'misc/utils.h': No such file or directory
+         GoalKeeperStates.cpp
+     1>c:\users\michael nares\desktop\ai source\vs2010\buckland_chapter4-simplesoccer\GoalKeeperStates.h(14): fatal error C1083: Cannot open include file: 'FSM/State.h': No such file or directory
+         Goalkeeper.cpp
+     1>c:\users\michael nares\desktop\ai source\vs2010\buckland_chapter4-simplesoccer\GoalKeeper.h(12): fatal error C1083: Cannot open include file: '2D/Vector2D.h': No such file or directory
+         Goal.cpp
+         FieldPlayerStates.cpp
+     1>c:\users\michael nares\desktop\ai source\vs2010\buckland_chapter4-simplesoccer\FieldPlayerStates.h(16): fatal error C1083: Cannot open include file: 'FSM/State.h': No such file or directory
+         FieldPlayer.cpp
+     1>c:\users\michael nares\desktop\ai source\vs2010\buckland_chapter4-simplesoccer\FieldPlayerStates.h(16): fatal error C1083: Cannot open include file: 'FSM/State.h': No such file or directory
+         Generating Code...
+     1>Done Building Project "C:\Users\Michael Nares\Desktop\Simple Soccer source\Simple Soccer 2.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:24.68
